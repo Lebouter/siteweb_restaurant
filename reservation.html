@@ -10,7 +10,7 @@
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-light bg-light">
+        <nav class="navbar navbar-light bg-secondary">
             <div class="container-fluid d-flex justify-content-between align-items-center">
                 <a class="navbar-brand" href="index.html">
                     <img src="img/logoBDS.png" alt="Logo" width="auto" height="120">
@@ -33,7 +33,47 @@
         </nav>
     </header>
     <main>
-
+        <body class="bg-light">
+            <div class="container mt-5">
+                <div class="row justify-content-center">
+                    <div class="col-lg-6 col-md-8 col-sm-12">
+                        <div class="card shadow-sm">
+                            <div class="card-body">
+                                <h2 class="text-center mb-4">Formulaire de Réservation</h2>
+                                <form id="reservationForm">
+                                    <div class="mb-3">
+                                        <label for="name" class="form-label">Nom</label>
+                                        <input type="text" class="form-control" id="name" required>
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="email" class="form-label">Email</label>
+                                        <input type="email" class="form-control" id="email" required>
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="phone" class="form-label">Téléphone</label>
+                                        <input type="tel" class="form-control" id="phone" required>
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="numPeople" class="form-label">Nombre de personnes</label>
+                                        <input type="number" class="form-control" id="numPeople" required>
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="date" class="form-label">Date</label>
+                                        <input type="date" class="form-control" id="date" required>
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="time" class="form-label">Heure</label>
+                                        <input type="time" class="form-control" id="time" required>
+                                    </div>
+                                    <div class="text-center">
+                                        <button type="submit" class="btn btn-primary">Envoyer</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
     </main>
     <footer class = "mt-5 bg-light">
         <div class="container-fluid d-flex flex-column justify-content-center align-items-center text-center">
