@@ -10,6 +10,17 @@
     font-weight: bold;
 }
 
+.badge-populaire {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: grey;
+    color: white;
+    padding: 5px 10px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
 @media (max-width: 992px) {
     .navbar-nav {
         text-align: center;
