@@ -19,3 +19,8 @@
         margin-bottom: 10px;
     }
 }
+
+.card-img-top {
+    max-width: 100%;
+    height: auto;
+}
