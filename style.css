@@ -10,3 +10,12 @@
     font-weight: bold;
 }
 
+@media (max-width: 992px) {
+    .navbar-nav {
+        text-align: center;
+        width: 100%;
+    }
+    .nav-item {
+        margin-bottom: 10px;
+    }
+}
